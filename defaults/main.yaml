@@ -1,0 +1,14 @@
+---
+
+resolv_domain: example.com
+resolv_search:
+  - example.com
+  - internal.example.com
+resolv_options:
+  - timeout:1
+  - attempts:2
+  - rotate
+resolv_servers:
+  - 8.8.8.8
+  - 75.75.75.75
+

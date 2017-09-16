@@ -1,0 +1,12 @@
+---
+
+- name: populate-resolv.conf
+  template:
+    src: resolv.conf
+    dest: /etc/resolv.conf
+    owner: root
+    group: root
+    mode: 0644
+  tags:
+    - conf
+
